@@ -1,0 +1,53 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title>Форма для входу в </title>
+</head>
+<body>
+    <form action="action_form.php" method="POST">
+        <p>
+            Введіть Ваш логін:
+            <input type="text" name="login" size="15" maxlength="30">
+        </p>
+        <p>
+            Введіть Ваш пароль: <input type="password" name="password" size="15" maxlength="30">
+        </p>
+        <input type="submit">
+    </form>
+
+    <p> Введіть дату народження</p>
+    <form action="#">
+        <input type="date">
+    </form>
+
+    <p>Оберіть Ваш улюблений колір</p>
+    <form action="#">
+        <input type="color">
+    </form>
+
+    <form action="action_form.php" method="POST">
+        <p>Які ваші улюблені музичні жанри?</p>
+        <ol>
+            <li><input type="checkbox" name="musik" value="juze" checked>Джаз</li>
+            <li><input type="checkbox" name="musik" value="bluse" checked>Блюз</li>
+            <li><input type="checkbox" name="musik" value="rock">Рок</li>
+            <li><input type="checkbox" name="musik" value="shanson">Реп</li>
+            <li><input type="checkbox" name="musik" value="kantry">Класика</li>
+        </ol>
+        <input type="submit">
+    </form>
+
+    <form action="action_form.php" method="POST">
+        <fieldset>
+            <legend>Введіть Ваші контактні дані</legend>
+            <label>Email:<br><input type="text" name="email"></label><br>
+            <label>Мобильный:<br><input type="text" name="mobile"></label><br>
+        </fieldset>
+        <input type="submit">
+    </form>
+    <h1>Інформація про переваги та недоліки професії програміста за посиланням нижче!</h1>
+    <a href="http://localhost:59201/Table.html">Table</a>
+</body>
+</html>
