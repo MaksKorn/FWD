@@ -1,0 +1,128 @@
+#A {
+margin-top: 140px;
+text-align: center;
+margin-bottom: -10px;
+}
+
+#B {
+    margin-left: 488px;
+    padding-top: 10px;
+}
+
+#B:hover {
+    opacity: 0.7;
+}
+
+.parent {
+    height: 200px;
+}
+
+.child {
+    height: 29px;
+    display: inline-block;
+    margin-top: -4px;
+}
+
+#C {
+border-color: rgba(255, 235, 205, 0.26);
+border-style: groove;
+height: 28px;
+font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+font-size: 82%;
+}
+
+
+#V:hover {
+    opacity: 0.7;
+}
+
+.parent1 {
+    margin-top: -80px;
+    text-align: center;
+}
+
+.childA {
+display: inline-block;
+margin-top: -100px;
+margin-left: 24px;
+margin-right: 24px;
+font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+font-size: 81.25%;
+}
+
+#I:hover {
+opacity: 0.7;
+background: rgba(245, 241, 241, 0.692);
+background-size: 30px;
+}
+
+
+
+.child2 {
+    display: inline-block;
+    margin-right: 19px;
+    margin-left: 19px;
+}
+
+#L {
+    background: rgba(238, 230, 230, 0.774);
+    width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    clear: both;
+    margin-top: 120px;
+}
+
+#U {
+    text-align: left;
+    margin-left: 13px;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+font-size: 90%;
+}
+
+#U:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+.parent2 {
+    text-align: left;
+}
+
+.child2 {
+    text-align: left;
+    margin-left: 13px;
+    margin-right: 13px;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+font-size: 90%;
+}
+
+.child2:hover {
+text-decoration: underline;
+opacity: 0.7;
+}
+
+#PP {
+    margin-left: 290px;
+}
+
+.parent3 {
+text-align: right;
+}
+
+.child3 {
+    display: inline-block;
+    margin-left: 17px;
+    margin-right: 17px;
+    font-family: Roboto, 'Segoe UI', Tahoma, sans-serif;
+font-size: 90%;
+}
+
+.child3:hover {
+    text-decoration: underline;
+    opacity: 0.7;
+}
+
+#MK {
+    border-radius: 28px;
+}
